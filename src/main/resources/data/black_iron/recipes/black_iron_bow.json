@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " IS",
+    "I S",
+    " IS"
+  ],
+  "key": {
+    "I": {
+      "item": "black_iron:black_iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "black_iron:black_iron_bow",
+    "count": 1
+  }
+}

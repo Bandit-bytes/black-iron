@@ -6,17 +6,15 @@ import net.bandit.black_iron.item.custom.BlackIronBow;
 import net.bandit.black_iron.item.custom.BlackIronSword;
 import net.bandit.black_iron.item.custom.CustomHelmet;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Rarity;
 
 public class ModItems {
 
     // Declare items as public static final
-    public static final Item BLACK_IRON = registerItem("black_iron", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+    public static final Item BLACK_IRON_INGOT = registerItem("black_iron_ingot", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
     public static final Item BLACK_IRON_RAW = registerItem("black_iron_raw", new Item(new FabricItemSettings()));
     public static final Item BLACK_IRON_BOW = registerItem("black_iron_bow", new BlackIronBow(new FabricItemSettings()));
 
@@ -35,6 +33,13 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.BLACK_IRON, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item BLACK_IRON_BOOTS = registerItem("black_iron_boots",
             new ArmorItem(ModArmorMaterials.BLACK_IRON, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item BLACK_IRON_SHOVEL = registerItem("black_iron_shovel",
+            new ShovelItem(ModToolMaterial.BLACK_IRON, -1, -2, new Item.Properties().rarity(Rarity.RARE)));
+    public static final Item BLACK_IRON_HOE = registerItem("black_iron_hoe",
+            new HoeItem(ModToolMaterial.BLACK_IRON, -3, -2, new Item.Properties().rarity(Rarity.RARE)));
+    public static final Item BLACK_IRON_PICKAXE = registerItem("black_iron_pickaxe",
+            new PickaxeItem(ModToolMaterial.BLACK_IRON, 3, -2, new Item.Properties().rarity(Rarity.RARE)));
 
     // Method to register an item
     private static Item registerItem(String name, Item item) {

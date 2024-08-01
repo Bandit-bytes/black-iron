@@ -18,10 +18,13 @@ public class ModItemGroups {
                     .displayItems((displayContext, entries) -> {
                         entries.accept(ModBlocks.BLACK_IRON_ORE);
                         entries.accept(ModItems.BLACK_IRON_RAW);
-                        entries.accept(ModItems.BLACK_IRON);
+                        entries.accept(ModItems.BLACK_IRON_INGOT);
                         entries.accept(ModItems.BLACK_IRON_BOW);
                         entries.accept(ModItems.BLACK_IRON_SWORD);
                         entries.accept(ModItems.BLACK_IRON_AXE);
+                        entries.accept(ModItems.BLACK_IRON_PICKAXE);
+                        entries.accept(ModItems.BLACK_IRON_SHOVEL);
+                        entries.accept(ModItems.BLACK_IRON_HOE);
                         entries.accept(ModItems.BLACK_IRON_HELMET);
                         entries.accept(ModItems.BLACK_IRON_CHESTPLATE);
                         entries.accept(ModItems.BLACK_IRON_LEGGINGS);

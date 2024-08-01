@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "black_iron:black_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "black_iron:black_iron_leggings",
+    "count": 1
+  }
+}

@@ -6,7 +6,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements Tier {
-    BLACK_IRON(5, 650, 4.5f, 3f, 26, () -> Ingredient.of(ModItems.BLACK_IRON));
+    BLACK_IRON(5, 650, 4.5f, 3f, 26, () -> Ingredient.of(ModItems.BLACK_IRON_INGOT));
 
     private final int level;
     private final int uses;

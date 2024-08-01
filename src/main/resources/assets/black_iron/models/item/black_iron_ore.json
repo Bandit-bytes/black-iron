@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "black_iron:item/black_iron_ore"
-  }
+  "parent": "black_iron:block/black_iron_ore"
 }

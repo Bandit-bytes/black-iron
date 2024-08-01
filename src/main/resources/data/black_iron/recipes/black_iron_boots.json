@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "black_iron:black_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "black_iron:black_iron_boots",
+    "count": 1
+  }
+}
