@@ -16,7 +16,8 @@ import net.minecraft.world.item.Rarity;
 public class ModItems {
 
     // Declare items as public static final
-    public static final Item BLACK_IRON = registerItem("black_iron", new Item(new FabricItemSettings()));
+    public static final Item BLACK_IRON = registerItem("black_iron", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+    public static final Item BLACK_IRON_RAW = registerItem("black_iron_raw", new Item(new FabricItemSettings()));
     public static final Item BLACK_IRON_BOW = registerItem("black_iron_bow", new BlackIronBow(new FabricItemSettings()));
 
     public static final Item BLACK_IRON_HELMET = registerItem("black_iron_helmet",

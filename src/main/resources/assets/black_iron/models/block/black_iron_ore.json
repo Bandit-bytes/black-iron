@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+      "all": "black_iron:block/black_iron_ore"
+    }
+  }

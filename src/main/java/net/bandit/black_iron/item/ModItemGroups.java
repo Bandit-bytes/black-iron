@@ -1,6 +1,7 @@
 package net.bandit.black_iron.item;
 
 import net.bandit.black_iron.BlackIronMod;
+import net.bandit.black_iron.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -15,6 +16,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().title(Component.translatable("itemgroup.black_iron"))
                     .icon(() -> new ItemStack(ModItems.BLACK_IRON_BOW))
                     .displayItems((displayContext, entries) -> {
+                        entries.accept(ModBlocks.BLACK_IRON_ORE);
+                        entries.accept(ModItems.BLACK_IRON_RAW);
                         entries.accept(ModItems.BLACK_IRON);
                         entries.accept(ModItems.BLACK_IRON_BOW);
                         entries.accept(ModItems.BLACK_IRON_SWORD);
