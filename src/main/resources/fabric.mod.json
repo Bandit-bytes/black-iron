@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.bandit.black_iron.BlackIron"
+			"net.bandit.black_iron.BlackIronMod"
 		],
 		"client": [
 			"net.bandit.black_iron.BlackIronModClient",

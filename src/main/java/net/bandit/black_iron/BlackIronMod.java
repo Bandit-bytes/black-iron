@@ -1,6 +1,7 @@
 package net.bandit.black_iron;
 
 
+import mod.azure.azurelib.AzureLib;
 import net.bandit.black_iron.item.ModItemGroups;
 import net.bandit.black_iron.item.ModItems;
 import net.bandit.black_iron.client.ModItemPropertiesClient;
@@ -17,6 +18,7 @@ public class BlackIronMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+		AzureLib.initialize();
 
 		ModItems.registerModItems();
 	}

@@ -1,0 +1,27 @@
+{
+  "item.black_iron.black_iron_bow.tooltip1": "A legendary bow forged from Black Iron.",
+  "item.black_iron.black_iron_bow.tooltip2": "Unleashes powerful arrows with mystical force.",
+  "item.black_iron.black_iron_bow.tooltip3": "Draw speed: Fast | Durability: High",
+  "item.black_iron.black_iron": "Black Iron",
+  "item.black_iron.black_iron_sword": "Black Iron Sword",
+  "item.black_iron.black_iron_axe": "Black Iron Axe",
+  "item.black_iron.black_iron_shovel": "Black Iron Shovel",
+  "item.black_iron.black_iron_pickaxe": "Black Iron Picaxe",
+  "item.black_iron.black_iron_hoe": "Black Iron hoe",
+  "item.black_iron.black_iron_helmet": "Black Iron Helmet",
+  "item.black_iron.black_iron_chestplate": "Black Iron Chestplate",
+  "item.black_iron.black_iron_leggings": "Black Iron Leggings",
+  "item.black_iron.black_iron_boots": "Black Iron Boots",
+  "item.black_iron.black_iron_bow": "Black Iron Bow",
+
+  "item.black_iron.black_iron_sword.tooltip1": "A legendary sword forged from black iron.",
+  "item.black_iron.black_iron_sword.tooltip2": "Emits a mysterious dark energy.",
+  "item.black_iron.black_iron_sword.tooltip3": "Special Attack: Ignites enemies in a wide area.",
+
+  "item.black_iron.black_iron_axe.tooltip1": "A mighty axe forged from black iron.",
+  "item.black_iron.black_iron_axe.tooltip2": "Unleashes a sweeping attack.",
+  "item.black_iron.black_iron_axe.tooltip3": "Special Attack: Damages and knocks back foes.",
+
+
+"itemgroup.black_iron": "Black Iron"
+}
