@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "black-iron",
+	"version": "${version}",
+	"name": "Black Iron",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/black-iron/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bandit.black_iron.BlackIron"
+		],
+		"client": [
+			"net.bandit.black_iron.BlackIronModClient",
+			"net.bandit.black_iron.client.ModItemPropertiesClient"
+		],
+		"fabric-datagen": [
+			"net.bandit.black_iron.BlackIronDataGenerator"
+		]
+	},
+	"mixins": [
+		"black-iron.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
