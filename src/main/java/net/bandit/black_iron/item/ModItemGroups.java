@@ -31,6 +31,7 @@ public class ModItemGroups {
                         entries.accept(ModItems.BLACK_IRON_BOOTS);
                     }).build());
 
+
     public static void registerItemGroups() {
         BlackIronMod.LOGGER.info("Registering Item Groups for " + BlackIronMod.MOD_ID);
     }

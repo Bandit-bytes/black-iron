@@ -3,9 +3,9 @@
 	"id": "black-iron",
 	"version": "${version}",
 	"name": "Black Iron",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Black Iron is a simple weapons and armor mod to give some diversity",
 	"authors": [
-		"Me!"
+		"Bandit-Bytes"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
