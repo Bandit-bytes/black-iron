@@ -10,22 +10,19 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.AABB;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class BlackIronAxe extends AxeItem {
+public class BlackIronAxe extends SwordItem {
 
-    public BlackIronAxe(ModToolMaterial tier, float attackDamage, float attackSpeed, Properties properties) {
+    public BlackIronAxe(ModToolMaterial tier, int attackDamage, float attackSpeed, Properties properties) {
         super(tier, attackDamage, attackSpeed, properties
-                .stacksTo(1) // Set the max stack count to 1
-                .rarity(Rarity.RARE)); // Set the rarity to rare
+                .stacksTo(1)
+                .rarity(Rarity.EPIC));
     }
 
     @Override
@@ -40,7 +37,6 @@ public class BlackIronAxe extends AxeItem {
                 entity.hurt(target.damageSources().playerAttack(player), 4.0F);
             }
 
-            // Play sound effect
             world.playSound(null, pos, SoundEvents.PLAYER_ATTACK_SWEEP, SoundSource.PLAYERS, 1.0F, 1.0F);
         }
         return super.hurtEnemy(stack, target, attacker);

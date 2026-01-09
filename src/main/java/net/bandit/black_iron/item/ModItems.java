@@ -1,10 +1,7 @@
 package net.bandit.black_iron.item;
 
 import net.bandit.black_iron.BlackIronMod;
-import net.bandit.black_iron.item.custom.BlackIronAxe;
-import net.bandit.black_iron.item.custom.BlackIronBow;
-import net.bandit.black_iron.item.custom.BlackIronSword;
-import net.bandit.black_iron.item.custom.CustomHelmet;
+import net.bandit.black_iron.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.world.item.*;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -27,19 +24,19 @@ public class ModItems {
             new BlackIronSword(ModToolMaterial.BLACK_IRON, 3, -2.4F,
                     new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final Item BLACK_IRON_AXE = registerItem("black_iron_axe",
-            new BlackIronAxe(ModToolMaterial.BLACK_IRON, 6.0f, -3.1f,
+            new BlackIronAxe(ModToolMaterial.BLACK_IRON, 6, -3.1f,
                     new Item.Properties()));
     public static final Item BLACK_IRON_LEGGINGS = registerItem("black_iron_leggings",
             new ArmorItem(ModArmorMaterials.BLACK_IRON, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item BLACK_IRON_BOOTS = registerItem("black_iron_boots",
             new ArmorItem(ModArmorMaterials.BLACK_IRON, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    public static final Item BLACK_IRON_SHOVEL = registerItem("black_iron_shovel",
-            new ShovelItem(ModToolMaterial.BLACK_IRON, -1, -2, new Item.Properties().rarity(Rarity.RARE)));
-    public static final Item BLACK_IRON_HOE = registerItem("black_iron_hoe",
-            new HoeItem(ModToolMaterial.BLACK_IRON, -3, -2, new Item.Properties().rarity(Rarity.RARE)));
-    public static final Item BLACK_IRON_PICKAXE = registerItem("black_iron_pickaxe",
-            new PickaxeItem(ModToolMaterial.BLACK_IRON, 3, -2, new Item.Properties().rarity(Rarity.RARE)));
+    public static final Item BLACK_IRON_SHOVEL = registerItem("black_iron_deathspade",
+            new BlackIronDeathspade(ModToolMaterial.BLACK_IRON, -1, -2, new Item.Properties().rarity(Rarity.RARE)));
+    public static final Item BLACK_IRON_HOE = registerItem("black_iron_soulscythe",
+            new BlackIronSoulscythe(ModToolMaterial.BLACK_IRON, -3, -2, new Item.Properties().rarity(Rarity.RARE)));
+    public static final Item BLACK_IRON_PICKAXE = registerItem("black_iron_hellspike",
+            new BlackIronHellspike(ModToolMaterial.BLACK_IRON, 3, -2, new Item.Properties().rarity(Rarity.RARE)));
 
     // Method to register an item
     private static Item registerItem(String name, Item item) {

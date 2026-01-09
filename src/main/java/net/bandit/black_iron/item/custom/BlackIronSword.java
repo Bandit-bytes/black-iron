@@ -1,7 +1,7 @@
 package net.bandit.black_iron.item.custom;
 
 import net.bandit.black_iron.item.ModToolMaterial;
-import net.minecraft.core.BlockPos;;
+import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;

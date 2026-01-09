@@ -13,7 +13,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     BLACK_IRON("black_iron", 25, new int[]{3, 6, 8, 3}, 19,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.of(ModItems.BLACK_IRON_INGOT));
 
-    private static final int[] BASE_DURABILITY = {13, 15, 16, 11}; // Updated durability values to match vanilla standards
+    private static final int[] BASE_DURABILITY = {13, 15, 16, 11};
 
     private final String name;
     private final int durabilityMultiplier;

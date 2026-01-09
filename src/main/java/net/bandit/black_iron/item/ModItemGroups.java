@@ -12,7 +12,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 public class ModItemGroups {
     public static final CreativeModeTab BLACK_IRON_GROUP = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            new ResourceLocation(BlackIronMod.MOD_ID, "black_iron"),
+            new ResourceLocation(BlackIronMod.MOD_ID, BlackIronMod.MOD_ID),
             FabricItemGroup.builder().title(Component.translatable("itemgroup.black_iron"))
                     .icon(() -> new ItemStack(ModItems.BLACK_IRON_BOW))
                     .displayItems((displayContext, entries) -> {

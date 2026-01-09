@@ -41,8 +41,6 @@ public class BlackIronBow extends BowItem {
     @Override
     public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
         ItemStack itemStack = player.getItemInHand(hand);
-
-        // Check if the player can use the bow (has arrows or creative mode)
         boolean hasArrows = !player.getProjectile(itemStack).isEmpty() || player.getAbilities().instabuild;
 
         if (!hasArrows) {

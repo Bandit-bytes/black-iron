@@ -7,14 +7,15 @@
   "block.black_iron.black_iron_ore": "Black Iron Ore",
   "item.black_iron.black_iron_sword": "Black Iron Sword",
   "item.black_iron.black_iron_axe": "Black Iron Axe",
-  "item.black_iron.black_iron_shovel": "Black Iron Shovel",
-  "item.black_iron.black_iron_pickaxe": "Black Iron Picaxe",
-  "item.black_iron.black_iron_hoe": "Black Iron hoe",
+  "item.black_iron.black_iron_deathspade": "Black Iron Deathspade",
+  "item.black_iron.black_iron_hellspike": "Black Iron Hellspike",
+  "item.black_iron.black_iron_soulscythe": "Black Iron Soulscythe",
   "item.black_iron.black_iron_helmet": "Black Iron Helmet",
   "item.black_iron.black_iron_chestplate": "Black Iron Chestplate",
   "item.black_iron.black_iron_leggings": "Black Iron Leggings",
   "item.black_iron.black_iron_boots": "Black Iron Boots",
   "item.black_iron.black_iron_bow": "Black Iron Bow",
+  "black_iron.helmet.tooltip": "A helmet forged from Black Iron",
 
   "item.black_iron.black_iron_sword.tooltip1": "A legendary sword forged from black iron.",
   "item.black_iron.black_iron_sword.tooltip2": "Emits a mysterious dark energy.",
@@ -23,7 +24,16 @@
   "item.black_iron.black_iron_axe.tooltip1": "A mighty axe forged from black iron.",
   "item.black_iron.black_iron_axe.tooltip2": "Unleashes a sweeping attack.",
   "item.black_iron.black_iron_axe.tooltip3": "Special Attack: Damages and knocks back foes.",
+  "item.black_iron.black_iron_deathspade.tooltip1": "A grave-digging weapon of crushing force.",
+  "item.black_iron.black_iron_deathspade.tooltip2": "Slows nearby enemies on impact.",
+  "item.black_iron.black_iron_deathspade.tooltip3": "Right-click to slam the ground and repel foes.",
+  "item.black_iron.black_iron_soulscythe.tooltip1": "A reaper’s blade that feeds on the fallen.",
+  "item.black_iron.black_iron_soulscythe.tooltip2": "Cleave enemies and siphon their vitality.",
+  "item.black_iron.black_iron_soulscythe.tooltip3": "Stronger when striking multiple targets.",
+  "item.black_iron.black_iron_hellspike.tooltip1": "A spike forged to pierce armor and bone.",
+  "item.black_iron.black_iron_hellspike.tooltip2": "Weakens armored enemies on hit.",
+  "item.black_iron.black_iron_hellspike.tooltip3": "Right-click to perform a devastating thrust.",
 
-
-"itemgroup.black_iron": "Black Iron"
+  "itemgroup.black_iron": "Black Iron",
+  "black_iron": "Black Iron"
 }

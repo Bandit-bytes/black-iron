@@ -1,5 +1,6 @@
 package net.bandit.black_iron.client;
-;
+
+
 import net.bandit.black_iron.item.ModItems;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
@@ -22,7 +23,6 @@ public class ModItemPropertiesClient implements ClientModInitializer {
     }
 
     private static void makeBow() {
-        // Correct the parameter to use ClientLevel
         ItemProperties.register(ModItems.BLACK_IRON_BOW, new ResourceLocation("pull"), (ItemStack stack, ClientLevel world, LivingEntity entity, int seed) -> {
             if (entity == null) {
                 return 0.0F;
